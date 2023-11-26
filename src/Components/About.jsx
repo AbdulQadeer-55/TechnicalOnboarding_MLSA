@@ -16,27 +16,44 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/background.webp";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "data science network";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a Computer Science student studying at SZABIST. I enjoy creating unique and simplistic visualizations in creative ways with building and deploying models to cloud or on local machines.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Python/Javascript/Java/Julia",
+  "Tensorflow/Keras/PyTorch",
+  "Scikit-Learn",
+  "Numpy/Pandas",
+  "Matplotlib/Seaborn/Plotly",
+  "Power BI and Salesforce Tableau",
+  "Machine Learning",
+  "Deep Learning",
+  "Natural Language Processing",
+  "AWS and Azure Cloud",
+  "Git/GitHub",
+  "Docker",
+  "Kubernetes",
+  "Django/Flask/Streamlit/Gradio/Heroku",
+  "Data Visualization",
+  "Data Analysis",
+  "Data Science",
+  "Data Warehousing",
+  "Data Modeling",
+  "Data Analytics",
+  "Data Structures and Algorithms",
+  "SQL",
+  "MySQL",
 ];
 
 /**
@@ -45,7 +62,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am a Data Scientist and Machine Learning Engineer. I am passionate about Data Science and Machine Learning. I am a quick learner and a team player. I am always ready to learn new technologies and implement them in my projects. I am a hardworking and dedicated person. I am always ready to face challenges and get along with people very well. I believe in vision and action. I learn from my mistakes. I am a self-motivated person and I believe in \"Do your best and leave the rest\".";
 
 const About = () => {
   return (

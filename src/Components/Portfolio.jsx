@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfoliopicture.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "visualizations in the computer screen";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Mastering NLP: A Hands-on Journey with Large Language Models",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A Medium article that explains the basics of NLP and how to use large language models to generate text.",
+    url: "https://medium.com/@the.datascientist/mastering-nlp-a-hands-on-journey-with-large-language-models-8e30239456af",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Data Analytics Capstone Project",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A project that uses data analytics to analyze the data of a company and provide insights to the company.",
+    url: "https://github.com/AbdulQadeer-55/Data-Analytics-Capstone-Project",
   },
   {
-    title: "My Resume Site",
+    title: "Prediction of Corporate Bankruptcy",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A project that uses machine learning to predict the bankruptcy of a company.",
+    url: "https://github.com/AbdulQadeer-55/Prediction-of-Corporate-Bankruptcy/tree/TeamA",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Analysis of Bank Debit Collections",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A project that uses data analytics to analyze the data of a bank and provide insights to the bank.",
+    url: "https://github.com/AbdulQadeer-55/Analysis-of-Bank-Debit-Collections",
   },
 ];
 
